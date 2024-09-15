@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title: string = 'Dice Roller - Angular';
+  title: string = 'Dice Roller - Angular (Sabina Bhandari)';
 }

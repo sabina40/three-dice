@@ -9,7 +9,7 @@ export class FooterComponent {
 
   today: Date;
 
-  @Input() name: string = "Sheridan College";
+  @Input() name: string = "Sheridan College Dice Project";
 
   constructor() {
     this.today = new Date();

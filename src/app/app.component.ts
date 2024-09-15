@@ -14,7 +14,7 @@ export class AppComponent {
   rollData: RollData | undefined;
 
   // the input value
-  numberOfDice: number = 3;
+  numberOfDice: number = 5;
 
   constructor(private rollerService: RollerService, private dataStorageService: DataStorageService) {
     if(dataStorageService.isRollDataSaved()){
